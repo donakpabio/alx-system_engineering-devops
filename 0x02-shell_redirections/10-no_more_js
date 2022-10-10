@@ -1,2 +1,2 @@
 #!/bin/bash
-find */ -type f -name *.js | rm -rf
+ls -LR */ | grep '^\-' | grep '.js$' | rm -rf
